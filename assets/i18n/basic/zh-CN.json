@@ -1,21 +1,21 @@
 {
   "NAV": {
-    "INDEX": "博客",
-    "RSS": "订阅",
-    "SEARCH": "搜索",
-    "ABOUT": "关于"
+    "INDEX": "Blog",
+    "RSS": "RSS",
+    "SEARCH": "Search",
+    "ABOUT": "About"
   },
   "PAGINATION": {
-    "PREV": "上一页",
-    "NEXT": "下一页"
+    "PREV": "Prev",
+    "NEXT": "Next"
   },
   "POST": {
-    "BACK": "返回",
-    "TOP": "回到顶部"
+    "BACK": "Back",
+    "TOP": "Top"
   },
   "PAGE": {
     "ERROR_404": {
-      "MESSAGE": "什么也没有"
+      "MESSAGE": "Nothing here"
     }
   }
 }
