@@ -101,24 +101,24 @@ export default function Header ({ navBarTitle, fullWidth }) {
             className="fill-black dark:fill-white"
           />
         </svg> */}
-        <div className="flex items-center">
-          <Link href="/" aria-label={BLOG.title}>
-            <Image
-              src={favicon}
-              width={24}
-              height={24}
-              alt={BLOG.title}
-              onError={() => setFavicon(true)}
-            />
-            <HeaderName
-              ref={titleRef}
-              siteTitle={BLOG.title}
-              siteDescription={BLOG.description}
-              postTitle={navBarTitle}
-              onClick={handleClickHeader}
-            />
-          </Link>
-        </div>
+        {/* <div> */}
+        <Link href="/" aria-label={BLOG.title} className="flex items-center">
+          <Image
+            src={favicon}
+            width={24}
+            height={24}
+            alt={BLOG.title}
+            onError={() => setFavicon(true)}
+          />
+          <HeaderName
+            ref={titleRef}
+            siteTitle={BLOG.title}
+            siteDescription={BLOG.description}
+            postTitle={navBarTitle}
+            onClick={handleClickHeader}
+          />
+        </Link>
+        {/* </div> */}
         <NavBar />
       </div>
     </>
